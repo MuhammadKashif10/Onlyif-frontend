@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import Button from '@/components/reusable/Button';
+import { Button } from '@/components/reusable/Button';
 import { createPropertyDescription } from '@/modules/auto-description';
 import { Wand2, Loader2 } from 'lucide-react';
 

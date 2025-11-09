@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Navbar } from '@/components';
-import Button from '@/components/reusable/Button';
+import { Button } from '@/components/reusable/Button';
 import HeroSection from '@/components/sections/HeroSection';
 
 export default function SellPage() {

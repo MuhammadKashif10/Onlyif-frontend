@@ -2,7 +2,7 @@
 
 import React, { useCallback, useState } from 'react';
 import { useSellerContext } from '@/context/SellerContext';
-import Button from '@/components/reusable/Button';
+import { Button } from '@/components/reusable/Button';
 
 interface FileWithPreview extends File {
   preview?: string;

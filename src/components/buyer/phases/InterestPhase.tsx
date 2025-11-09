@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { useBuyerContext } from '../../../context/BuyerContext';
 import { useRouter } from 'next/navigation';
-import Button from '../../reusable/Button';
+import { Button } from '../../reusable/Button';
 import InputField from '../../reusable/InputField';
 
 const InterestPhase: React.FC = () => {

@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { formatCurrency } from '@/utils/currency';
-import Button from '@/components/reusable/Button';
+import { Button } from '@/components/reusable/Button';
 import Loader from '@/components/reusable/Loader';
 import GetCashOffer from '@/components/seller/GetCashOffer';
 

@@ -5,7 +5,7 @@ import { useBuyerContext } from '../../../context/BuyerContext';
 import { useAuth } from '../../../context/AuthContext';
 import { useRouter } from 'next/navigation';
 import InputField from '../../reusable/InputField';
-import Button from '../../reusable/Button';
+import { Button } from '../../reusable/Button';
 
 const OtpVerificationPhase: React.FC = () => {
   const { buyerData, updateBuyerData, setPhase } = useBuyerContext();

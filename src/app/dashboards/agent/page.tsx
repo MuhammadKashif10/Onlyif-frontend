@@ -5,7 +5,7 @@ import { AgentProvider, useAgentContext } from '@/context/AgentContext';
 import { useAuth } from '@/context/AuthContext';
 import { useUI } from '@/context/UIContext';
 import Image from 'next/image';
-import Button from '@/components/reusable/Button';
+import { Button } from '@/components/reusable/Button';
 import InputField from '@/components/reusable/InputField';
 import InspectionManager from '@/components/agent/InspectionManager';
 import { NotificationPanel, Modal } from '@/components/reusable';

@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useMemo, useState } from "react";
-import Button from "@/components/reusable/Button";
+import { Button } from "@/components/reusable/Button";
 import Input from "@/components/reusable/Input";
 
 interface InvoiceRow {

@@ -3,7 +3,7 @@
 // Imports at top of file
 import { useState, useEffect } from 'react';
 import { useQuery, useMutation } from '@tanstack/react-query';
-import Button from '@/components/reusable/Button';
+import { Button } from '@/components/reusable/Button';
 import Badge from '@/components/reusable/Badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/reusable/EnhancedCard';
 import { UserPlus, Eye, Edit, Trash2 } from 'lucide-react';

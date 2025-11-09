@@ -45,7 +45,7 @@ export { default as PropertyCarousel } from './reusable/PropertyCarousel';
 export { default as MapPlaceholder } from './reusable/MapPlaceholder';
 export { default as PropertyMap } from './reusable/PropertyMap';
 export { default as SimilarProperties } from './reusable/SimilarProperties';
-export { default as Button } from './reusable/Button';
+export { Button } from './reusable/Button';
 export { default as Modal } from './reusable/Modal';
 export { default as Alert } from './reusable/Alert';
 export { default as InputField } from './reusable/InputField';

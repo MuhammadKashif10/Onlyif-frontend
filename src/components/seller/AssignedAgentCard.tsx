@@ -3,7 +3,7 @@
 
 import { useEffect, useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/reusable/EnhancedCard';
-import Button from '@/components/reusable/Button';
+import { Button } from '@/components/reusable/Button';
 import Badge from '@/components/reusable/Badge';
 import { Avatar } from '@/components/reusable/Avatar';
 import { MessageCircle } from 'lucide-react' // removed Star

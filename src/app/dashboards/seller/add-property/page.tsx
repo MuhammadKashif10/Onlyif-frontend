@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { Navbar } from '@/components';
 import Sidebar from '@/components/main/Sidebar';
-import Button from '@/components/reusable/Button';
+import { Button } from '@/components/reusable/Button';
 import InputField from '@/components/reusable/InputField';
 import TextArea from '@/components/reusable/TextArea';
 import { useRouter } from 'next/navigation';

@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import Button from '@/components/reusable/Button';
+import { Button } from '@/components/reusable/Button';
 
 interface StatusChangeConfirmDialogProps {
   isOpen: boolean;

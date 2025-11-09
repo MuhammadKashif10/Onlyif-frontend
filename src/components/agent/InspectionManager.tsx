@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import Button from '@/components/reusable/Button';
+import { Button } from '@/components/reusable/Button';
 import Modal from '@/components/reusable/Modal';
 import InputField from '@/components/reusable/InputField';
 import DatePicker from '@/components/reusable/DatePicker';

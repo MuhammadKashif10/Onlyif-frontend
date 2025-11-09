@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Navbar, Footer } from '@/components';
-import Button from '@/components/reusable/Button';
+import { Button } from '@/components/reusable/Button';
 import { useRouter } from 'next/navigation';
 
 export default function PrivacyPolicyPage() {

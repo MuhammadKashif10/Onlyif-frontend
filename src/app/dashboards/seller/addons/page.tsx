@@ -5,7 +5,7 @@ import { Navbar, Footer } from '@/components';
 import Sidebar from '@/components/main/Sidebar';
 import AddonCard from '@/components/reusable/AddonCard';
 import Modal from '@/components/reusable/Modal';
-import Button from '@/components/reusable/Button';
+import { Button } from '@/components/reusable/Button';
 import InputField from '@/components/reusable/InputField';
 import { loadStripe } from '@stripe/stripe-js';
 import { addonsApi, Addon } from '@/api/addons';

@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Modal from '@/components/reusable/Modal';
-import Button from '@/components/reusable/Button';
+import { Button } from '@/components/reusable/Button';
 import AssignedAgentCard from '@/components/seller/AssignedAgentCard';
 import { getSafeImageUrl } from '@/utils/imageUtils';
 import { Bed, Bath, Car } from 'lucide-react';

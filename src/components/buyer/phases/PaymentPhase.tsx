@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { useBuyerContext } from '@/context/BuyerContext';
-import Button from '@/components/reusable/Button';
+import { Button } from '@/components/reusable/Button';
 import InputField from '@/components/reusable/InputField';
 import { formatCurrency, dollarsToCents } from '@/utils/currency';
 

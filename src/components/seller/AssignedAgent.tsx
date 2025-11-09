@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import Button from '@/components/reusable/Button';
+import { Button } from '@/components/reusable/Button';
 import Modal from '@/components/reusable/Modal';
 import { AgentAssignmentResponse } from '@/api/assignments';
 

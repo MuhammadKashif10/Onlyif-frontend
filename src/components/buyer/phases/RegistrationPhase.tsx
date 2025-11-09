@@ -5,7 +5,7 @@ import { useBuyerContext } from '../../../context/BuyerContext';
 import { useAuth } from '../../../context/AuthContext'; // Add this import
 import InputField from '../../reusable/InputField';
 import PasswordField from '../../reusable/PasswordField';
-import Button from '../../reusable/Button';
+import { Button } from '../../reusable/Button';
 import { validatePassword, validatePasswordConfirmation } from '../../../utils/passwordValidation';
 
 const RegistrationPhase: React.FC = () => {

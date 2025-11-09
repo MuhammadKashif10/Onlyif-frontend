@@ -12,7 +12,7 @@ interface ButtonProps {
   href?: string; // Add href prop for navigation
 }
 
-export default function Button({
+export function Button({
   children,
   variant = 'primary',
   size = 'md',

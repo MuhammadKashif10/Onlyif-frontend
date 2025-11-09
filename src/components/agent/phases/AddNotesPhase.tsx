@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { useAgentContext } from '@/context/AgentContext';
-import Button from '@/components/reusable/Button';
+import { Button } from '@/components/reusable/Button';
 import InputField from '@/components/reusable/InputField';
 
 interface NoteFormData {

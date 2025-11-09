@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { notificationAPI, Notification, NotificationResponse } from '@/api/notifications';
-import Button from './Button';
+import { Button } from './Button';
 import { useNotifications } from '@/context/NotificationContext';
 import Modal from './Modal';
 import Loader from './Loader';

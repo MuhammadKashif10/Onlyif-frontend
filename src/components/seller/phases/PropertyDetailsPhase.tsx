@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { useSellerContext } from '@/context/SellerContext';
-import Button from '@/components/reusable/Button';
+import { Button } from '@/components/reusable/Button';
 import { coreLogicAPI, CoreLogicValuationResponse } from '@/api/corelogic';
 import Loader from '@/components/reusable/Loader';
 
