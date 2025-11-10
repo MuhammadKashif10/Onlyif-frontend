@@ -1,12 +1,16 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  experimental: {
+    // Skip prerendering API routes to avoid build-time env var issues
+    isrMemoryCacheSize: 0,
+  },
   eslint: {
-    // Don’t fail the production build on ESLint errors
+    // Don't fail the production build on ESLint errors
     ignoreDuringBuilds: true,
   },
   typescript: {
-    // Don’t fail the production build on type errors
+    // Don't fail the production build on type errors
     ignoreBuildErrors: true,
   },
   images: {
