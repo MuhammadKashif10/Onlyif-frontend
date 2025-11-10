@@ -78,7 +78,6 @@ export default async function ApiExamplePage() {
                   <h3 className="text-lg font-semibold mb-4">Loading Error</h3>
                   <LoadingError 
                     message="Failed to load properties"
-                    onRetry={() => console.log('Retry clicked')}
                   />
                 </div>
                 
